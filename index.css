@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(#FFB3C1,#FF8FA3,#FF4D63);
+    text-align: center;
+}
+
+.title{
+    font-family: 'Orbitron', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box{
+    background-color: black;
+    color: red;
+    border: 2px solid black;
+    border-radius: 20%;
+    height: 60px;
+    width: 95px;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inc1,#inc2,#inc3,#inc4,#inc5,#inc6{
+    border: 2px solid #C9184A;
+    background-color: #590D22;
+    color: white;
+    border-radius: 20%;
+    padding: 5px 10px;
+}
+#btn7{
+    border: 2px solid #C9184A;
+    background-color: #590D22;
+    color: white;
+    border-radius: 16%;
+    padding: 10px 20px;
+    margin: 30px 60px;
+}

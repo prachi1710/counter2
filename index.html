@@ -1,0 +1,34 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="title">HOME</h3>
+                <div class="box" id="change-el">0</div>
+                <div class="btn">
+                    <button id="inc1" onclick="increase1()">+1</button>
+                    <button id="inc2" onclick="increase2()">+2</button>
+                    <button id="inc3" onclick="increase3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="title">GUEST</h3>
+                 <div class="box" id="change-el2">0</div>
+                 <div class="btn">
+                    <button id="inc4" onclick="increase1g()">+1</button>
+                    <button id="inc5" onclick="increase2g()">+2</button>
+                    <button id="inc6" onclick="increase3g()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+                <button id="btn7" onclick="reset()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
