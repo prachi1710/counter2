@@ -36,4 +36,6 @@ function increase3g(){
 function reset(){
     changedig.textContent=0
     changedig2.textContent=0
+    score=0
+    gscore=0
 }
